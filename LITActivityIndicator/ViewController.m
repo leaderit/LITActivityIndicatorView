@@ -6,7 +6,7 @@
 //
 
 #import "ViewController.h"
-#import "LITActivityIndicatorView.h"
+#import "LITActivityIndicator/LITActivityIndicatorView.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet LITActivityIndicatorView *ac1;
@@ -21,10 +21,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-//    [self.ac1 startAnimating];
-//    [self.ac2 startAnimating];
-//    [self.ac3 startAnimating];
-//    [self.ac4 startAnimating];
 }
 
 
