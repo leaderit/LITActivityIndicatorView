@@ -5,9 +5,9 @@
 //  Created by Valerii Grazhdankin on 11/28/20.
 //
 
-#import "LITActivityIndicator.h"
+#import "LITActivityIndicatorView.h"
 
-@interface LITActivityIndicator()
+@interface LITActivityIndicatorView()
 {
     CGRect indicatorBounds;
 }
@@ -17,7 +17,7 @@
 @property (nonatomic, strong) CAKeyframeAnimation * animation;
 @end
 
-@implementation LITActivityIndicator
+@implementation LITActivityIndicatorView
 
 - (instancetype) init
 {

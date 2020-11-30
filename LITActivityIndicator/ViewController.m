@@ -6,13 +6,13 @@
 //
 
 #import "ViewController.h"
-#import "LITActivityIndicator.h"
+#import "LITActivityIndicatorView.h"
 
 @interface ViewController ()
-@property (weak, nonatomic) IBOutlet LITActivityIndicator *ac1;
-@property (weak, nonatomic) IBOutlet LITActivityIndicator *ac2;
-@property (weak, nonatomic) IBOutlet LITActivityIndicator *ac3;
-@property (weak, nonatomic) IBOutlet LITActivityIndicator *ac4;
+@property (weak, nonatomic) IBOutlet LITActivityIndicatorView *ac1;
+@property (weak, nonatomic) IBOutlet LITActivityIndicatorView *ac2;
+@property (weak, nonatomic) IBOutlet LITActivityIndicatorView *ac3;
+@property (weak, nonatomic) IBOutlet LITActivityIndicatorView *ac4;
 
 @end
 

@@ -10,7 +10,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 IB_DESIGNABLE
-@interface LITActivityIndicator : UIActivityIndicatorView
+@interface LITActivityIndicatorView : UIActivityIndicatorView
 
 @property (nonatomic, strong) IBInspectable UIImage * image;
 @property (nonatomic, strong) IBInspectable UIImage * staticImage;
