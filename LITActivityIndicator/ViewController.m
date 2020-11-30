@@ -21,10 +21,10 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self.ac1 startAnimating];
-    [self.ac2 startAnimating];
-    [self.ac3 startAnimating];
-    [self.ac4 startAnimating];
+//    [self.ac1 startAnimating];
+//    [self.ac2 startAnimating];
+//    [self.ac3 startAnimating];
+//    [self.ac4 startAnimating];
 }
 
 

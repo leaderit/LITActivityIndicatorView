@@ -125,6 +125,7 @@
     self.dynamicView.center = center;
     self.dynamicView.image = self.image;
     self.staticView.image = self.staticImage;
+    if ( self.isAnimating ) [self startAnimating];
 }
 
 
