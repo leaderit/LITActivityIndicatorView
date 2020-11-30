@@ -1,5 +1,5 @@
 //
-//  ActivityIndicator.m
+//  LITActivityIndicator.m
 //  Leader IT Extended Activity Indicator
 //
 //  Created by Valerii Grazhdankin on 11/28/20.
@@ -81,7 +81,6 @@
 {
     self.steps = 8;
     self.duration = 1.0;
-    self.fitFrame = YES;
     indicatorBounds = self.subviews[0].bounds;
     [self.layer.sublayers makeObjectsPerformSelector:@selector(removeFromSuperlayer)];
     if ( self.image == nil ) self.image = [[UIImage imageNamed:@"ActivityIndicator"] imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
